@@ -40,20 +40,39 @@
     top: 8rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .services {
         margin-top: 0;
         flex-direction: column;
-        gap: 5rem;
-        height: 66rem;
-        padding: 0;
+        padding: 2rem;
+        height: auto;
+    }
+    .awesome {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -10%;
     }
     .cards {
         display: flex;
         flex-direction: column;
-        gap: 17rem;
-    }
-    .cards>* {
+        align-items: center;
         position: static;
+        left: -20%;
+        margin-top: 20px;
+        margin-bottom: -80%;
+    }
+    
+    .cards > div {
+        position: static !important;
+        width: 90%; 
+        margin-bottom: 1rem;
+        transform: none !important;
+    }
+    
+    .cards > div > div {
+        position: static !important;
+        width: 100%;
+        margin: 0 auto;
     }
 }

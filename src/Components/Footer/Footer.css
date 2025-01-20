@@ -20,3 +20,18 @@
     display: flex;
     gap: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .f-content span {
+        margin-top: 2rem;
+    }
+    .f-icons {
+        gap: 1.5rem;
+        transform: translateY(-1rem);
+    }
+    .f-icons a svg {
+        width: 2rem;
+        height: 2rem;
+        margin-top: -110px;
+    }
+}
