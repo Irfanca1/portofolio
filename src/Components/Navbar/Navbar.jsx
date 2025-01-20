@@ -20,7 +20,7 @@ const Navbar = () => {
               <li>Fokus</li>
             </Link>
             <Link spy={true} to="works" smooth={true} activeClass="activeClass">
-              <li>Keahlian</li>
+              <li>Keterampilan</li>
             </Link>
             <Link spy={true} to="Portfolio" smooth={true} activeClass="activeClass">
               <li>Proyek</li>
